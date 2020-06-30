@@ -13,6 +13,7 @@
 		4A52A23924AB64EC00E55018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A52A23724AB64EC00E55018 /* Main.storyboard */; };
 		4A52A23B24AB64F000E55018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A52A23A24AB64F000E55018 /* Assets.xcassets */; };
 		4A52A23E24AB64F000E55018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A52A23C24AB64F000E55018 /* LaunchScreen.storyboard */; };
+		4A52A24924AB677100E55018 /* david-holifield-uidpH617Fb8-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A52A24824AB677100E55018 /* david-holifield-uidpH617Fb8-unsplash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4A52A23A24AB64F000E55018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A52A23D24AB64F000E55018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A52A23F24AB64F000E55018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A52A24824AB677100E55018 /* david-holifield-uidpH617Fb8-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "david-holifield-uidpH617Fb8-unsplash.jpg"; path = "../../../../Downloads/david-holifield-uidpH617Fb8-unsplash.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		4A52A23024AB64EC00E55018 /* CoreML */ = {
 			isa = PBXGroup;
 			children = (
+				4A52A24724AB652C00E55018 /* Resources */,
+				4A52A24624AB652200E55018 /* View */,
+				4A52A24524AB650600E55018 /* Controller */,
 				4A52A23124AB64EC00E55018 /* AppDelegate.swift */,
 				4A52A23324AB64EC00E55018 /* SceneDelegate.swift */,
-				4A52A23524AB64EC00E55018 /* ViewController.swift */,
 				4A52A23724AB64EC00E55018 /* Main.storyboard */,
+				4A52A24824AB677100E55018 /* david-holifield-uidpH617Fb8-unsplash.jpg */,
 				4A52A23A24AB64F000E55018 /* Assets.xcassets */,
 				4A52A23C24AB64F000E55018 /* LaunchScreen.storyboard */,
 				4A52A23F24AB64F000E55018 /* Info.plist */,
 			);
 			path = CoreML;
+			sourceTree = "<group>";
+		};
+		4A52A24524AB650600E55018 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A52A24624AB652200E55018 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A52A23524AB64EC00E55018 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A52A24724AB652C00E55018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A52A24924AB677100E55018 /* david-holifield-uidpH617Fb8-unsplash.jpg in Resources */,
 				4A52A23E24AB64F000E55018 /* LaunchScreen.storyboard in Resources */,
 				4A52A23B24AB64F000E55018 /* Assets.xcassets in Resources */,
 				4A52A23924AB64EC00E55018 /* Main.storyboard in Resources */,
